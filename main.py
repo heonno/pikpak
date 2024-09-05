@@ -17,7 +17,7 @@ INVITE_CODE = os.getenv('INVITE_CODE') or input('请输入邀请码: ')
 PUSH_MSG = ''
 
 
-# 检查变量
+# 检查变量aaa
 def check_env():
     invite_code_list = []
     if not PUSHPLUS_TOKEN:
